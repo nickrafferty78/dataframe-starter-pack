@@ -4,10 +4,7 @@ import org.apache.log4j.{Level, Logger}
 
 object DataFrames extends App {
 
-  def setupLogging() = {
-    val rootLogger = Logger.getRootLogger()
-    rootLogger.setLevel(Level.ERROR)
-  }
+  Utilities.setupLogging()
 
   val spark = SparkSession
     .builder()
@@ -15,7 +12,7 @@ object DataFrames extends App {
     .master("local[*]")
     .getOrCreate()
 
-  setupLogging()
+
 
 
 }
