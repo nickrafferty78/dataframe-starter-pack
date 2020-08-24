@@ -2,6 +2,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.types.LongType
+import Utilities._
 
 object DataFrames extends App {
 
@@ -17,12 +18,12 @@ object DataFrames extends App {
   val firstDataFrame = spark
     .read
     .format("json")
-    .option("inferSchema", "true")
+    .schema(musicalInstrumentsSchema)
     .load("data/MusicalInstrumentReviews.json")
 
   firstDataFrame.show()
   firstDataFrame.printSchema()
 
-  val longType = LongType
+
 
 }
