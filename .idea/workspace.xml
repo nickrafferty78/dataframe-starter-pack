@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3a8b46-c6f1-4baa-841c-9f6cb0839e1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/yelp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Scala/ExerciseOne.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/DataFrames.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/DataFrames.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/links.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nyt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ratings.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/Utilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Scala/DataFrames.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -31,31 +38,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Scala/Utilities.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/Scala/ExerciseOne.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#1#40#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.json">
+        <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+              <column index="0" width="100" />
+              <column index="1" width="100" />
+              <column index="2" width="100" />
+              <column index="3" width="100" />
+              <column index="4" width="100" />
+              <column index="5" width="100" />
+              <column index="6" width="100" />
+              <column index="7" width="100" />
+              <column index="8" width="100" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/yelp.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="17" column="145" selection-start-line="17" selection-start-column="145" selection-end-line="17" selection-end-column="145" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/nyt.json">
+        <entry file="file://$PROJECT_DIR$/src/main/Scala/Utilities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="563" />
+            <state relative-caret-position="507">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#1#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AXWEQHTXQWR7Q</find>
+      <find>(&quot;business_id)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,7 +110,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Scala/DataFrames.scala" />
+        <option value="$PROJECT_DIR$/data/yelp.json" />
         <option value="$PROJECT_DIR$/src/main/Scala/Utilities.scala" />
+        <option value="$PROJECT_DIR$/src/main/Scala/ExerciseOne.scala" />
       </list>
     </option>
   </component>
@@ -102,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +173,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -171,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExerciseOne">
     <configuration name="DataFrames" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="DataFrames" />
       <module name="dataframe-starter-pack" />
@@ -179,8 +210,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExerciseOne" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseOne" />
+      <module name="dataframe-starter-pack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseOne" />
         <item itemvalue="Application.DataFrames" />
       </list>
     </recent_temporary>
@@ -206,10 +245,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="28" width="1786" height="1092" extended-state="6" />
+    <frame x="0" y="23" width="1792" height="1097" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2591533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -220,12 +259,12 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.359204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.257" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25671643" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -256,34 +295,6 @@
     <entry file="file://$PROJECT_DIR$/data/ratings.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-          <column index="7" width="100" />
-          <column index="8" width="100" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="13215">
-          <caret line="881" column="44" selection-start-line="881" selection-start-column="44" selection-end-line="881" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/movies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -299,6 +310,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/nyt.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -306,17 +324,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.json">
+    <entry file="file://$PROJECT_DIR$/data/MusicalInstrumentReviews.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="13215">
+          <caret line="881" column="44" selection-start-line="881" selection-start-column="44" selection-end-line="881" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="31" />
+          <caret column="5" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Scala/DataFrames.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -325,10 +364,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Scala/Utilities.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="507">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/yelp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="145" selection-start-line="17" selection-start-column="145" selection-end-line="17" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scala/ExerciseOne.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
