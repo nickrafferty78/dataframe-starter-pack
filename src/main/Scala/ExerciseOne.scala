@@ -15,15 +15,12 @@ object ExerciseOne extends App {
       .getOrCreate()
 
     val yelpDF = spark.read
-      .option("inferSchema", "true")
+      .schema(yelpSchema)
       .format("json")
       .load("data/yelp.json")
 
     yelpDF.show()
-  yelpDF.printSchema()
+    yelpDF.printSchema()
 
-  val filteredDf = yelpDF.select(col("name"), col("city"), col("stars"), col("review_count"), col("state"), col("hours"))
-
-  filteredDf.write.json("data/filteredJson.json")
 
 }

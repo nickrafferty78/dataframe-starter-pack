@@ -18,7 +18,7 @@ object DataFrames extends App {
   val firstDataFrame = spark
     .read
     .format("json")
-    .schema(musicalInstrumentsSchema)
+    .option("inferSchema", "true")
     .load("data/MusicalInstrumentReviews.json")
 
   firstDataFrame.show()

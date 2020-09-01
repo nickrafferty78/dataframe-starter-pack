@@ -22,19 +22,21 @@ object Utilities {
 
 
   val yelpSchema = StructType(Array(
-    StructField("business_id", StringType, nullable = true),
     StructField("name", StringType, nullable = true),
-    StructField("address", StringType, nullable = true),
-    StructField("city", ArrayType(IntegerType, true)),
-    StructField("state", StringType, nullable = true),
-    StructField("postal_code", DoubleType, nullable = true),
-    StructField("latitude", StringType, nullable = true),
-    StructField("longitude", LongType, nullable = true),
+    StructField("city", StringType, nullable = true),
     StructField("stars", StringType, nullable = true),
     StructField("review_count", StringType, nullable = true),
-    StructField("is_open", DoubleType, nullable = true),
-    StructField("attributes", StringType, nullable = true),
-    StructField("categories", LongType, nullable = true),
-    StructField("hours", StringType, nullable = true),
+    StructField("hours", StructType(
+      Array(
+        StructField("Monday", StringType),
+        StructField("Tuesday", StringType),
+        StructField("Wednesday", StringType),
+        StructField("Thursday", StringType),
+        StructField("Friday", StringType),
+        StructField("Saturday", StringType),
+        StructField("Sunday", StringType)
+      )
+    )),
   ))
+
 }
